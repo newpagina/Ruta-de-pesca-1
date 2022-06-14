@@ -8,6 +8,7 @@
     width: 15vw;
 }
 
+/* configurando nav */
 .container-fluid{
     display: flex;
     flex-wrap: inherit;
@@ -15,12 +16,17 @@
     justify-content: space-between;
     flex-direction: row-reverse;
     background-color: rgba(6, 227, 235, 0.555);
+    
 }
 
 .navbar-nav a {
     color: rgb(214, 18, 126);
 }
 
+.navbar-nav li{
+    color: white;
+   
+}
 
 .nav-link:hover{
     background-color: rgb(2, 0, 0);
@@ -28,7 +34,7 @@
 }
 
 .dropdown-menu{
-    background-color: aquamarine;
+    background-color:linear-gradient(90deg, rgba(0,219,210,1) 0%, rgba(0,241,222,0.896796218487395) 42%, rgba(0,244,241,0.6699054621848739) 79%, rgba(5,255,248,0.5662640056022409) 99%);
 }
 
 .dropdown-menu a:hover{
@@ -38,6 +44,17 @@
 
 .dropdown-menu a{
     color: black;
+}
+
+.header{
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgba(11,11,11,0.896796218487395) 42%, rgba(8,8,8,0.6699054621848739) 79%, rgba(0,0,0,0.5662640056022409) 99%);
+}
+
+.header h1{
+    text-align: center;
+    font-size: 3.5em;
+    color:white
+    
 }
 
 
