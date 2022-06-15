@@ -143,4 +143,32 @@
     background-color: rgba(240, 248, 255, 0.151);
   }
 
+  /* PECES */
+  #peces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #peces img{
+    width: 50vw;
+  }
+
+  #peces h2{
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+  }
+
+  #peces li{
+    color:rgb(35, 211, 12);
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  #peces p{
+    color: white;
+    max-width: 350px;
+  }
+
     
