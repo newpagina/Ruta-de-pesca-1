@@ -19,37 +19,24 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
-    background-color: rgba(6, 227, 235, 0.555);
-    
+    background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
 }
 
 .navbar-nav a {
-    color: rgb(214, 18, 126);
-}
-
-.navbar-nav li{
-    color: white;
-   
-}
-
-.nav-link:hover{
-    background-color: rgb(2, 0, 0);
-    color: white;
+    color: rgb(30, 15, 238);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
 }
 
 .dropdown-menu{
-    background-color:linear-gradient(90deg, rgba(0,219,210,1) 0%, rgba(0,241,222,0.896796218487395) 42%, rgba(0,244,241,0.6699054621848739) 79%, rgba(5,255,248,0.5662640056022409) 99%);
+    background-image: url(https://us.123rf.com/450wm/plasticperson/plasticperson1905/plasticperson190504269/122498608-fondo-de-humo-de-color-blanco-abstracto-aislado-sobre-fondo-de-color-azul-la-pared-de-niebla-blanca-.jpg?ver=6);
 }
 
-.dropdown-menu a:hover{
-    background-color: black;
-    color: white;
+.navbar-brand{
+    box-shadow:  1px 1px 2px rgba(0, 174, 255, 0.219);
 }
 
-.dropdown-menu a{
-    color: black;
-}
-
+/* heaer */
 .header{
     background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgba(11,11,11,0.896796218487395) 42%, rgba(8,8,8,0.6699054621848739) 79%, rgba(0,0,0,0.5662640056022409) 99%);
 }
@@ -57,7 +44,7 @@
 .header h1{
     text-align: center;
     font-size: 3.5em;
-    color:white
+    color:rgba(255, 255, 255, 0.911)
 }
 
 /* foto carrusel */
