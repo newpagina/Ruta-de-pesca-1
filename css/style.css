@@ -205,7 +205,13 @@
 @media (min-width: 1200px) {
     .body {
         background-image: none;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHJLZWUIBldbB1hnD94ooCkzQfnNHeA5Qw7w&usqp=CAU);
+        background-image: url(https://cdn.create.vista.com/api/media/medium/226957406/stock-photo-red-defocused-glitter-black-background?token=);
+       background-size: cover;
+    }
+
+    .bopez{
+      background-image: url(https://i.ytimg.com/vi/XA-WI2QSNAE/maxresdefault.jpg);
+        
     }
 
     .container-fluid {
@@ -296,6 +302,13 @@
         text-align: center;
         flex-direction: row;
         align-items: flex-start;
+        margin-bottom: 113px;
+    margin-top: 85px;
+    }
+
+    #lugares h2{
+        color: blue;
+        background-color: rgba(255, 255, 255, 0.884);
     }
 
     #lugares a {
@@ -310,8 +323,31 @@
         color: white;
     }
 
+    #peces img {
+        width: 10vw;
+    }
 
+    #peces p {
+        color: white;
+        max-width: 900px;
+    }
 
+    .form-control {
+        width: 50vw;
+    }
+    
+    .btn-primary {
+        margin-top: 10px;
+        margin-bottom: 110px;
+    }
+
+    #nosotros p {
+        color: white;
+        margin-top: 30px;
+        max-width: 780px;
+        font-size: 1.5em;
+    }
+    
 
 
 }
