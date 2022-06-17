@@ -214,6 +214,15 @@
         
     }
 
+    .navbar-nav{
+        font-size: 0.5em;
+
+    }
+
+    .dropdown-menu{
+        font-size: 1em;
+    }
+
     .container-fluid {
         background-repeat: none;
         background-size: cover;
@@ -236,6 +245,8 @@
         background: linear-gradient(0deg, rgba(34, 25, 203, 0.8603816526610644) 0%, rgba(0, 16, 240, 0.7035189075630253) 23%, rgba(5, 18, 252, 1) 99%);
     }
 
+  
+
     .carousel-item {
         width: 10vw;
     }
@@ -253,12 +264,12 @@
 
     #pag1 p {
         font-size: 1.5em;
-        max-width: 1148px;
+        max-width: 900px;
         margin: 0 auto;
         background-color: rgba(0, 0, 0, 0.445);
         color: white;
         box-shadow: 2px 3px 2px black;
-        margin-top: 5px;
+        margin-top: 0px;
     }
 
     #fotmain img {
@@ -308,7 +319,8 @@
 
     #lugares h2{
         color: blue;
-        background-color: rgba(255, 255, 255, 0.884);
+        background-color: rgba(15, 218, 207, 0.733);
+        border-radius: 10px;
     }
 
     #lugares a {
